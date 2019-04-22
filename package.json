@@ -29,7 +29,7 @@
     "gatsby-dev": "cd packages/landing-gatsby && gatsby develop",
     "gatsby-build": "cd packages/landing-gatsby && gatsby build",
     "gatsby-serve": "cd packages/landing-gatsby && gatsby serve",
-    "gatsby-deploy": "cd packages/landing-gatsby && gatsby deploy",
+    "gatsby-deploy": "cd packages/landing-gatsby && gatsby build && gh-pages -d public -b master",
     "start": "lerna run --parallel dev",
     "web": "cd packages/landing && yarn dev",
     "landing-build": "cd ./packages/landing && yarn build",
