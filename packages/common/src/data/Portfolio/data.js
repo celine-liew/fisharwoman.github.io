@@ -241,7 +241,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: 'Quadtree Pruning',
         description:
-          'Image compression assignment for data struture & algorithms course at UBC. Blocky compression of images using quad tree pruning technique.',
+          'Image compression assignment for data structure & algorithms course at UBC. Blocky compression of images using quad tree pruning technique.',
         image: PortfolioImage4,
         link: 'https://www.ugrad.cs.ubc.ca/~cs221/2018W2/mps/p3/',
         // featuredIn: 'AWWWARDS',
@@ -290,27 +290,6 @@ export const PORTFOLIO_SHOWCASE = [
   },
 ];
 
-// export const PROCESS_STEPS = [
-//   {
-//     image: Step1,
-//     title: '1. Research',
-//     description:
-//       'We work with you to understand user’s stories and validate your idea with real users using lean design sprints.',
-//   },
-//   {
-//     image: Step2,
-//     title: '2. Design',
-//     description:
-//       'Expanding on the insights gained, you’ll work closely with our design team to create an elegant design',
-//   },
-//   {
-//     image: Step3,
-//     title: '3. Build',
-//     description:
-//       'With our scrum-based agile methodology, you’ll receive iterative builds every two weeks, which gives you ',
-//   },
-// ];
-
 export const SERVICE_LIST = [
   {
     title: 'Stack',
@@ -337,6 +316,9 @@ export const SERVICE_LIST = [
       },
       {
         content: 'ReactJs',
+      },
+      {
+        content: 'NoSQL',
       },
     ],
   },
