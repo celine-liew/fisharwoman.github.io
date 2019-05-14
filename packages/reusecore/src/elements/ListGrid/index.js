@@ -14,7 +14,7 @@ const LoadMore = ({
   loading,
   loadMoreComponent,
   loadMoreWrapperStyle,
-  loadMoreButtonStyle
+  loadMoreButtonStyle,
 }) => {
   return (
     <>
@@ -60,7 +60,7 @@ const ListGrid = ({
   componentContainerStyle,
   loadMoreWrapperStyle,
   loadMoreButtonStyle,
-  paginationWrapperStyle
+  paginationWrapperStyle,
 }) => {
   const Limit = limit ? Number(limit) : 1;
   const limits = [];
@@ -119,7 +119,7 @@ ListGrid.propTypes = {
   columnWidth: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
-    PropTypes.array
+    PropTypes.array,
   ]),
   pagination: PropTypes.bool,
   paginationComponent: PropTypes.element,
@@ -135,7 +135,7 @@ ListGrid.propTypes = {
   componentContainerStyle: PropTypes.object,
   loadMoreWrapperStyle: PropTypes.object,
   loadMoreStyle: PropTypes.object,
-  paginationWrapperStyle: PropTypes.object
+  paginationWrapperStyle: PropTypes.object,
 };
 
 ListGrid.defaultProps = {
@@ -143,17 +143,17 @@ ListGrid.defaultProps = {
     flexBox: true,
     flexWrap: 'wrap',
     mr: '-1rem',
-    ml: '-1rem'
+    ml: '-1rem',
   },
   componentContainerStyle: {
     pr: '1rem',
-    pl: '1rem'
+    pl: '1rem',
   },
   loadMoreWrapperStyle: {
     flexBox: true,
     justifyContent: 'center',
-    mt: '1rem'
-  }
+    mt: '1rem',
+  },
 };
 
 export default ListGrid;

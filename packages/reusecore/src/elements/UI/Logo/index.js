@@ -42,7 +42,7 @@ Logo.propTypes = {
   logoStyle: PropTypes.object,
   titleStyle: PropTypes.object,
   withAchor: PropTypes.bool,
-  anchorProps: PropTypes.object
+  anchorProps: PropTypes.object,
 };
 
 Logo.defaultProps = {
@@ -50,14 +50,14 @@ Logo.defaultProps = {
     display: 'inline-block',
     mr: '1rem',
     'a:hover,a:focus': {
-      textDecoration: 'none'
-    }
+      textDecoration: 'none',
+    },
   },
   titleStyle: {
     display: 'inline-block',
     fontSize: '2rem',
     lineHeight: 'inherit',
-    whiteSpace: 'nowrap'
-  }
+    whiteSpace: 'nowrap',
+  },
 };
 export default Logo;

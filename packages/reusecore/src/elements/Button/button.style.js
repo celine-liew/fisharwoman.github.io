@@ -66,7 +66,7 @@ const ButtonStyle = styled.button`
 ButtonStyle.propTypes = {
   ...alignItems.propTypes,
   ...boxShadow.propTypes,
-  ...variant.propTypes
+  ...variant.propTypes,
 };
 
 ButtonStyle.displayName = 'ButtonStyle';

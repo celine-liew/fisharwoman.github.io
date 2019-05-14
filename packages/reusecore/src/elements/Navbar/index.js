@@ -29,25 +29,33 @@ Navbar.propTypes = {
   width: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
-    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+    PropTypes.arrayOf(
+      PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+    ),
   ]),
 
   height: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
-    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+    PropTypes.arrayOf(
+      PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+    ),
   ]),
 
   space: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
-    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+    PropTypes.arrayOf(
+      PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+    ),
   ]),
 
   borderRadius: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
-    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+    PropTypes.arrayOf(
+      PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+    ),
   ]),
 
   boxShadow: PropTypes.string,
@@ -62,7 +70,7 @@ Navbar.propTypes = {
 
   flexDirection: PropTypes.string,
 
-  flexWrap: PropTypes.string
+  flexWrap: PropTypes.string,
 };
 
 /** Navbar default proptype */

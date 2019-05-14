@@ -80,7 +80,7 @@ RangeBox.propTypes = {
   min: PropTypes.number.isRequired,
 
   /** Maximum value of the range-box field */
-  max: PropTypes.number.isRequired
+  max: PropTypes.number.isRequired,
 
   // /** Stepper value of the range-box field */
   // stepper: PropTypes.number.isRequired,
@@ -111,7 +111,7 @@ RangeBox.defaultProps = {
   // type: 'range',
   // disabled: false,
   min: 0,
-  max: 100
+  max: 100,
   // stepper: 5
   // unit: ' BDT',
   // placement: 'top',

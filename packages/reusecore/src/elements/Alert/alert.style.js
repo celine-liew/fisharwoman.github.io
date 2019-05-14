@@ -32,7 +32,7 @@ const AlertStyle = styled.div`
 
 // prop types can also be added from the style functions
 AlertStyle.propTypes = {
-  ...variant.propTypes
+  ...variant.propTypes,
 };
 
 AlertStyle.displayName = 'AlertStyle';

@@ -23,7 +23,7 @@ class DateRangePickerBox extends Component {
       focusedInput: null,
       startDate,
       endDate,
-      dateFormat
+      dateFormat,
     };
     this.onDateChangeFunc = this.onDateChangeFunc.bind(this);
     this.onFocusChangeFunc = this.onFocusChangeFunc.bind(this);
@@ -113,7 +113,7 @@ class DateRangePickerBox extends Component {
       withFullScreenPortal,
       onFocusChange: this.onFocusChangeFunc,
       onDatesChange: this.onDateChangeFunc,
-      ...props
+      ...props,
     };
     // if (item && item.locale) {
     //   moment.locale(item.locale);
@@ -165,7 +165,7 @@ DateRangePickerBox.propTypes = {
   /** disabled of the date-picker field */
   disabled: PropTypes.oneOfType([
     PropTypes.bool,
-    PropTypes.oneOf(['START_DATE', 'END_DATE'])
+    PropTypes.oneOf(['START_DATE', 'END_DATE']),
   ]),
 
   /** showClearDate of the date-picker field */
@@ -179,12 +179,12 @@ DateRangePickerBox.propTypes = {
   /** withPortal of the date-picker field */
   withPortal: PropTypes.bool,
   /** withFullScreenPortal of the date-picker field */
-  withFullScreenPortal: PropTypes.bool
+  withFullScreenPortal: PropTypes.bool,
 };
 
 /** RangeBox default proptype */
 DateRangePickerBox.defaultProps = {
   labelText: 'ReuseCore DateRangePickerBox',
-  labelPosition: 'top'
+  labelPosition: 'top',
 };
 export default DateRangePickerBox;

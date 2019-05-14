@@ -95,7 +95,7 @@ const changeColor = (color, ratio, darker) => {
             darker ? 0 : 255
           ).toString(16),
           2
-        )
+        ),
       ].join('');
 };
 const lightenColor = (color, ratio) => {

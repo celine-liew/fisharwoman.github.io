@@ -3,6 +3,7 @@
 // import { socialDribbbleOutline } from 'react-icons-kit/ionicons/socialDribbbleOutline';
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
 // import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
+import { chatbox } from 'react-icons-kit/ionicons/chatbox';
 import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 
 // import Awardee1 from '../../assets/image/portfolio/awardee-1.png';
@@ -14,11 +15,12 @@ import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 // import AwardImage3 from '../../assets/image/portfolio/award-3.png';
 // import AwardImage4 from '../../assets/image/portfolio/award-4.png';
 
-import PortfolioImage1 from '../../assets/image/portfolio/javavisuals.gif';
+import PortfolioImage1 from '../../assets/image/portfolio/chatwithceline.gif';
 import PortfolioImage2 from '../../assets/image/portfolio/310project.gif';
 import PortfolioImage3 from '../../assets/image/portfolio/vanezy.gif';
 import PortfolioImage4 from '../../assets/image/portfolio/quadTree.gif';
 import PortfolioImage5 from '../../assets/image/portfolio/foodielab.png';
+import PortfolioImage6 from '../../assets/image/portfolio/javavisuals.gif';
 
 // import Step1 from '../../assets/image/portfolio/step-1.png';
 // import Step2 from '../../assets/image/portfolio/step-2.png';
@@ -61,6 +63,10 @@ export const SOCIAL_PROFILES = [
     icon: socialGithub,
     url: 'https://github.com/fisharwoman',
   },
+  {
+    icon: chatbox,
+    url: 'https://chat.celineliew.com',
+  }
   // {
   //   icon: socialGoogleplusOutline,
   //   url: '#',
@@ -127,6 +133,30 @@ export const MENU_ITEMS = [
 
 export const PORTFOLIO_SHOWCASE = [
   {
+    title: 'SERVERLESS',
+    portfolioItem: [
+      {
+        title: 'Chat with Celine',
+        description:
+          'One-to-one instant chat app built to easily contact website owners. Implemented user authentication, real-time chat synchronization, message storage, and serverless functions using Google Firebase platform.',
+        image: PortfolioImage1,
+        link: 'https://chat.celineliew.com',
+        link2: 'https://chat.celineliew.com',
+        buildWith: [
+          {
+            content: 'JavaScript',
+          },
+          {
+            content: 'Serverless',
+          },
+          {
+            content: 'NoSQL',
+          },
+        ],
+      },
+    ],
+  },
+  {
     title: 'FULL STACK',
     portfolioItem: [
       {
@@ -184,7 +214,7 @@ export const PORTFOLIO_SHOWCASE = [
         title: 'Job Appplication Tracker',
         description:
           'Job tracking desktop app for software construction course at UBC',
-        image: PortfolioImage1,
+        image: PortfolioImage6,
         link: 'https://github.com/fisharwoman/job-application-database',
         // featuredIn: 'AWWWARDS',
         // featuredLink: '#',

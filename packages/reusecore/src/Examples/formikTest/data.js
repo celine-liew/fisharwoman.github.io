@@ -2,7 +2,7 @@ export const initialValues = {
   email: '',
   password: '',
   gender: '',
-  profession: ''
+  profession: '',
 };
 
 export const data = {
@@ -11,33 +11,33 @@ export const data = {
   gender: [
     {
       label: 'Male',
-      value: 'male'
+      value: 'male',
     },
     {
       label: 'Female',
-      value: 'female'
+      value: 'female',
     },
     {
       label: 'Other',
-      value: 'other'
-    }
+      value: 'other',
+    },
   ],
   profession: [
     {
       label: 'Engineer',
-      value: 'engineer'
+      value: 'engineer',
     },
     {
       label: 'Doctor',
-      value: 'doctor'
+      value: 'doctor',
     },
     {
       label: 'Teacher',
-      value: 'teacher'
+      value: 'teacher',
     },
     {
       label: 'Lawyer',
-      value: 'lawyer'
-    }
-  ]
+      value: 'lawyer',
+    },
+  ],
 };

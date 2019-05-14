@@ -88,7 +88,7 @@ CheckBox.propTypes = {
   isChecked: PropTypes.bool,
 
   /** disabled of the checkbox field */
-  disabled: PropTypes.bool
+  disabled: PropTypes.bool,
 };
 
 /** Checkbox default proptype */
@@ -96,6 +96,6 @@ CheckBox.defaultProps = {
   isChecked: false,
   labelText: 'Checkbox label',
   labelPosition: 'right',
-  disabled: false
+  disabled: false,
 };
 export default CheckBox;

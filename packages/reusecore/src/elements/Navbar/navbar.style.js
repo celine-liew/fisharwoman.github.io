@@ -10,7 +10,7 @@ import {
   space,
   borderRadius,
   width,
-  height
+  height,
 } from 'styled-system';
 
 const NavbarStyle = styled.nav`

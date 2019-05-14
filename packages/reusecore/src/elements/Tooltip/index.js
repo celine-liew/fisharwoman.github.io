@@ -4,7 +4,7 @@ import {
   TooltipStyle,
   TriggerStyle,
   BubbleSize,
-  BubbleStyle
+  BubbleStyle,
 } from './tooltip.style';
 
 const Tooltip = ({
@@ -20,7 +20,7 @@ const Tooltip = ({
 }) => {
   // tooltip local state
   const [state, setState] = useState({
-    open: false
+    open: false,
   });
 
   // Add all classs to an array
@@ -87,12 +87,12 @@ Tooltip.propTypes = {
   bubbleStyle: PropTypes.object,
 
   /** Set tooltip position left || right || top || bottom. */
-  position: PropTypes.oneOf(['left', 'right', 'top', 'bottom'])
+  position: PropTypes.oneOf(['left', 'right', 'top', 'bottom']),
 };
 
 /** Tooltip default proptype */
 Tooltip.defaultProps = {
-  isChecked: false
+  isChecked: false,
 };
 
 export default Tooltip;

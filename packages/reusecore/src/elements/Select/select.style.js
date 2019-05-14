@@ -47,7 +47,7 @@ const SelectStyle = styled.div`
 SelectStyle.displayName = 'SelectStyle';
 
 SelectStyle.defaultProps = {
-  as: 'div'
+  as: 'div',
 };
 
 export default SelectStyle;

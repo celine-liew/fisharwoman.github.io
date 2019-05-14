@@ -13,7 +13,7 @@ const colors = {
   secondaryHover: '#FF282F', // 11
   yellow: '#fdb32a', // 12
   yellowHover: '#F29E02', // 13
-  borderColor: '#dadada' // 14
+  borderColor: '#dadada', // 14
 };
 
 export default colors;

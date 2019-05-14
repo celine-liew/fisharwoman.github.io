@@ -10,7 +10,7 @@ import {
   backgroundSize,
   backgroundPosition,
   backgroundRepeat,
-  opacity
+  opacity,
 } from 'styled-system';
 import { cards } from '../../theme/customVariant';
 import { base, themed } from '../base';
@@ -45,10 +45,10 @@ Card.propTypes = {
   ...backgroundPosition.propTypes,
   ...backgroundRepeat.propTypes,
   ...opacity.propTypes,
-  ...cards.propTypes
+  ...cards.propTypes,
 };
 
 Card.defaultProps = {
-  boxShadow: '0px 20px 35px rgba(0, 0, 0, 0.05)'
+  boxShadow: '0px 20px 35px rgba(0, 0, 0, 0.05)',
 };
 export default Card;

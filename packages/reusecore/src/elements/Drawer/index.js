@@ -30,7 +30,11 @@ const Drawer = ({
         className={addAllClasses.join(' ')}
         {...props}
       >
-        <div className="reusecore-drawer__close" onClick={toggleHandler} style={closeButtonStyle}>
+        <div
+          className="reusecore-drawer__close"
+          onClick={toggleHandler}
+          style={closeButtonStyle}
+        >
           {closeButton}
         </div>
         {children}
@@ -60,13 +64,13 @@ Drawer.propTypes = {
   placement: PropTypes.oneOf(['left', 'right', 'top', 'bottom']),
 
   /** drawerHandler could be button, icon, string or any component */
-  drawerHandler: PropTypes.element.isRequired
+  drawerHandler: PropTypes.element.isRequired,
 };
 
 Drawer.defaultProps = {
   width: '300px',
   handler: false,
-  level: null
+  level: null,
 };
 
 export default Drawer;

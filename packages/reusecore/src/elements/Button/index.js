@@ -106,20 +106,20 @@ Button.propTypes = {
     'primaryWithBg',
     'secondaryWithBg',
     'warningWithBg',
-    'errorWithBg'
+    'errorWithBg',
   ]),
 
   /**
    * Gets called when the user clicks on the button
    */
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
 };
 
 Button.defaultProps = {
   disabled: false,
   isMaterial: false,
   isLoading: false,
-  type: 'button'
+  type: 'button',
 };
 
 export default Button;

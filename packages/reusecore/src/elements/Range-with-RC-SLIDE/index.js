@@ -72,7 +72,7 @@ const RangeBox = props => {
     rangeDefaultValue && rangeDefaultValue[1] ? rangeDefaultValue[1] : 0;
   const toolTipConfig = {
     placement,
-    prefixCls: 'reusecore__rc_slider_tooltip rc-slider-tooltip'
+    prefixCls: 'reusecore__rc_slider_tooltip rc-slider-tooltip',
   };
   return (
     <Range
@@ -148,7 +148,7 @@ RangeBox.propTypes = {
     'topLeft',
     'topRight',
     'bottomLeft',
-    'bottomRight'
+    'bottomRight',
   ]),
 
   /** Minimum value of the range-box field */
@@ -176,7 +176,7 @@ RangeBox.propTypes = {
   disabled: PropTypes.bool,
 
   /** vertical of the range-box field */
-  vertical: PropTypes.bool
+  vertical: PropTypes.bool,
 };
 
 /** RangeBox default proptype */
@@ -194,5 +194,5 @@ RangeBox.defaultProps = {
   slideDefaultValue: 3,
   rangeDefaultValue: [0, 50],
   dots: true,
-  vertical: false
+  vertical: false,
 };

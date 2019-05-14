@@ -122,7 +122,7 @@ Switch.propTypes = {
    * @param {object} event The event source of the callback.
    * You can pull out the new value by accessing `event.target.value`.
    */
-  onChange: PropTypes.func
+  onChange: PropTypes.func,
 };
 
 Switch.defaultProps = {
@@ -130,7 +130,7 @@ Switch.defaultProps = {
   labelPosition: 'top',
   onBlur: () => {},
   onFocus: () => {},
-  onChange: () => {}
+  onChange: () => {},
 };
 
 export default Switch;

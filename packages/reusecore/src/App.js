@@ -35,20 +35,20 @@ import FormikTest from './Examples/formikTest/index';
 const App = () => {
   const [state, setState] = useState({
     drawerLeft: false,
-    drawerRight: false
+    drawerRight: false,
   });
 
   // drawerLeftHandler
   const drawerLeftHandler = () => {
     setState({
-      drawerLeft: !state.drawerLeft
+      drawerLeft: !state.drawerLeft,
     });
   };
 
   // drawerRightHandler
   const drawerRightHandler = () => {
     setState({
-      drawerRight: !state.drawerRight
+      drawerRight: !state.drawerRight,
     });
   };
 
@@ -109,7 +109,7 @@ const App = () => {
             message={'Hello, I am a super cool tooltip'}
             position={'top'}
             bubbleStyle={{
-              boxShadow: '0 10px 20px rgba(0, 0, 0, 0.3)'
+              boxShadow: '0 10px 20px rgba(0, 0, 0, 0.3)',
             }}
           >
             tooltip

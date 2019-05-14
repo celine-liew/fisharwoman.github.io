@@ -18,11 +18,11 @@ export default Link;
 Link.propTypes = {
   as: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   children: PropTypes.any.isRequired,
-  ...base.propTypes
+  ...base.propTypes,
 };
 
 Link.defaultProps = {
   as: 'a',
   m: 0,
-  display: 'inline-block'
+  display: 'inline-block',
 };

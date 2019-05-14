@@ -4,7 +4,7 @@ import ErrorMessageComponent from './errorMessage';
 import {
   validateFunc,
   onSubmitFunc,
-  DisplayFormikState
+  DisplayFormikState,
 } from './helperFunctions';
 import Button from '../../elements/Button/index';
 import RadioBox from '../../elements/Radio/index';
@@ -41,7 +41,7 @@ const RadioGroupWithFormik = ({
   touched,
   id,
   label,
-  children
+  children,
 }) => {
   return (
     <div>
@@ -75,7 +75,7 @@ const FormikTest = () => {
             isSubmitting,
             handleReset,
             setFieldValue,
-            setFieldTouched
+            setFieldTouched,
           } = props;
           return (
             <form onSubmit={handleSubmit}>

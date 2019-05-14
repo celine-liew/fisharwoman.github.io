@@ -1,24 +1,24 @@
 const optionsArray = [
   {
     label: 'Afghanistan',
-    value: 'AFG'
+    value: 'AFG',
   },
   {
     label: 'Åland Islands',
-    value: 'ALA'
+    value: 'ALA',
   },
   {
     label: 'Albania',
-    value: 'ALB'
+    value: 'ALB',
   },
   {
     label: 'Bangladesh',
-    value: 'BGD'
+    value: 'BGD',
   },
   {
     label: 'Germany',
-    value: 'DEU'
-  }
+    value: 'DEU',
+  },
 ];
 
 export default optionsArray;

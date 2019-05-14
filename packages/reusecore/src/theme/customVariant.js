@@ -1,17 +1,17 @@
 import { variant } from 'styled-system';
 
 const buttonStyle = variant({
-  key: 'buttonStyles'
+  key: 'buttonStyles',
 });
 
 const colorStyle = variant({
   key: 'colorStyles',
-  prop: 'colors'
+  prop: 'colors',
 });
 
 const sizeStyle = variant({
   key: 'sizeStyles',
-  prop: 'size'
+  prop: 'size',
 });
 
 export const cards = variant({ key: 'cards' });

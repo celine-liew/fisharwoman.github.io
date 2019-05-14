@@ -29,7 +29,7 @@ const ContactSection = ({
           <Heading {...secTitle} content="Let’s Work Together" />
           <Text
             {...secDescription}
-            content="I’m currently looking for internship opportunities in Software Engineering."
+            content="I’m currently looking for internship opportunities in Software Engineering. Click chatbox icon to chat or email me!"
           />
         </Box>
         <Box {...replyWrapper}>

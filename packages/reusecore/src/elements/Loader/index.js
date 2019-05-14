@@ -30,7 +30,7 @@ Loader.propTypes = {
   height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 
   /** Set color for loader */
-  loaderColor: PropTypes.string
+  loaderColor: PropTypes.string,
 };
 
 Loader.defaultProps = {};

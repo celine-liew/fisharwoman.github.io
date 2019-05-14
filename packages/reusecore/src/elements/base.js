@@ -15,7 +15,7 @@ import {
   order,
   alignSelf,
   color,
-  compose
+  compose,
 } from 'styled-system';
 
 export const themed = key => props => props.theme[key];
@@ -50,5 +50,5 @@ base.propTypes = {
   ...color.propTypes,
   ...flex.propTypes,
   ...order.propTypes,
-  ...alignSelf.propTypes
+  ...alignSelf.propTypes,
 };

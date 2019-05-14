@@ -11,7 +11,7 @@ import {
   minWidth,
   height,
   maxHeight,
-  minHeight
+  minHeight,
 } from 'styled-system';
 
 const TooltipStyle = styled.span`

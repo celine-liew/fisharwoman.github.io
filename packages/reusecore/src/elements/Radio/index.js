@@ -88,7 +88,7 @@ Radio.propTypes = {
   isChecked: PropTypes.bool,
 
   /** disabled of the radio field */
-  disabled: PropTypes.bool
+  disabled: PropTypes.bool,
 };
 
 /** Radio default proptype */
@@ -96,6 +96,6 @@ Radio.defaultProps = {
   isChecked: false,
   labelText: 'Radio label',
   labelPosition: 'right',
-  disabled: false
+  disabled: false,
 };
 export default Radio;

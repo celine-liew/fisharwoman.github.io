@@ -12,7 +12,7 @@ class DatePicker extends Component {
     this.state = {
       focused: false,
       date,
-      dateFormat: 'l'
+      dateFormat: 'l',
     };
     this.onDateChangeFunc = this.onDateChangeFunc.bind(this);
     this.onFocusChangeFunc = this.onFocusChangeFunc.bind(this);
@@ -79,7 +79,7 @@ class DatePicker extends Component {
       withFullScreenPortal,
       onFocusChange: this.onFocusChangeFunc,
       onDateChange: this.onDateChangeFunc,
-      ...props
+      ...props,
     };
     // moment.locale('pl');
     return (
@@ -121,12 +121,12 @@ DatePicker.propTypes = {
   /** withPortal of the date-picker field */
   withPortal: PropTypes.bool,
   /** withFullScreenPortal of the date-picker field */
-  withFullScreenPortal: PropTypes.bool
+  withFullScreenPortal: PropTypes.bool,
 };
 
 /** RangeBox default proptype */
 DatePicker.defaultProps = {
   labelText: 'ReuseCore DatePicker',
-  labelPosition: 'top'
+  labelPosition: 'top',
 };
 export default DatePicker;

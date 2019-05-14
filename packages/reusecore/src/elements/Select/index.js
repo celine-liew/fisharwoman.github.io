@@ -48,12 +48,12 @@ Select.propTypes = {
   labelText: PropTypes.string,
 
   /** Set label position of the select field. By default it's top */
-  labelPosition: PropTypes.oneOf(['top', 'bottom', 'left', 'right'])
+  labelPosition: PropTypes.oneOf(['top', 'bottom', 'left', 'right']),
 };
 
 Select.defaultProps = {
   as: 'div',
-  labelPosition: 'top'
+  labelPosition: 'top',
 };
 
 export default Select;
