@@ -236,7 +236,7 @@ export const PORTFOLIO_SHOWCASE = [
         description:
           'Image compression assignment for data structure & algorithms course at UBC. Blocky compression of images using quad tree pruning technique.',
         image: PortfolioImage4,
-        link: 'https://www.ugrad.cs.ubc.ca/~cs221/2018W2/mps/p3/',
+        link: 'https://github.com/fisharwoman/quadtree',
         // featuredIn: 'AWWWARDS',
         // featuredLink: '#',
         // view: '4.5K',
