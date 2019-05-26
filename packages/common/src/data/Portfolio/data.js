@@ -66,7 +66,7 @@ export const SOCIAL_PROFILES = [
   {
     icon: chatbox,
     url: 'https://chat.celineliew.com',
-  }
+  },
   // {
   //   icon: socialGoogleplusOutline,
   //   url: '#',
@@ -165,7 +165,6 @@ export const PORTFOLIO_SHOWCASE = [
           'Full stack web development project for a software engineering course at UBC. The application enables search of text based information using a context-free grammar (EBNF).',
         image: PortfolioImage2,
         link: 'https://github.com/fisharwoman/UBCCampusExplorer',
-        link2: 'https://github.com/ubccpsc/310/tree/2019jan/project',
         buildWith: [
           {
             content: 'JavaScript',
@@ -212,15 +211,9 @@ export const PORTFOLIO_SHOWCASE = [
     portfolioItem: [
       {
         title: 'Job Appplication Tracker',
-        description:
-          'Job tracking desktop app for software construction course at UBC',
+        description: 'Personal job tracking desktop app built with Java.',
         image: PortfolioImage6,
         link: 'https://github.com/fisharwoman/job-application-database',
-        // featuredIn: 'AWWWARDS',
-        // featuredLink: '#',
-        // view: '4.5K',
-        // love: '1.5K',
-        // feedback: '1.2K',
         buildWith: [
           {
             content: 'Java',
