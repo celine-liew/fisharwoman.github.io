@@ -21,6 +21,7 @@ import PortfolioImage3 from '../../assets/image/portfolio/vanezy.gif';
 import PortfolioImage4 from '../../assets/image/portfolio/quadTree.gif';
 import PortfolioImage5 from '../../assets/image/portfolio/foodielab.png';
 import PortfolioImage6 from '../../assets/image/portfolio/javavisuals.gif';
+import PortfolioImage7 from '../../assets/image/portfolio/roomies.gif';
 
 // import Step1 from '../../assets/image/portfolio/step-1.png';
 // import Step2 from '../../assets/image/portfolio/step-2.png';
@@ -151,6 +152,38 @@ export const PORTFOLIO_SHOWCASE = [
           },
           {
             content: 'NoSQL',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: 'DATABASE',
+    portfolioItem: [
+      {
+        title: 'Roomies',
+        description:
+          'Full-stack household management web app with expense tracking, event calendar, and message bulletin board. Frontend built with React. Backend powered by Node.js Express and PostgreSQL in Docker.',
+        image: PortfolioImage7,
+        link: 'https://github.com/fisharwoman/roomies',
+        buildWith: [
+          {
+            content: 'JavaScript',
+          },
+          {
+            content: 'Node.js',
+          },
+          {
+            content: 'Express',
+          },
+          {
+            content: 'PostgreSQL',
+          },
+          {
+            content: 'Docker',
+          },
+          {
+            content: 'React',
           },
         ],
       },
@@ -294,6 +327,9 @@ export const SERVICE_LIST = [
         content: 'TypeScript',
       },
       {
+        content: 'C',
+      },
+      {
         content: 'C++',
       },
       {
@@ -305,13 +341,16 @@ export const SERVICE_LIST = [
     title: 'Web Development',
     listItems: [
       {
-        content: 'NodeJS',
+        content: 'Node.js',
       },
       {
-        content: 'ReactJs',
+        content: 'React.js',
       },
       {
         content: 'NoSQL',
+      },
+      {
+        content: 'PostgreSQL',
       },
     ],
   },
@@ -337,28 +376,28 @@ export const SERVICE_LIST = [
   },
 ];
 
-export const SKILLS = [
-  {
-    title: 'Web Application',
-    description: 'I am excited to advance in the area of web development',
-    icon: SkillIcon1,
-    successRate: '80',
-  },
-  {
-    title: 'Project Management',
-    description:
-      'Experience in stakeholders and project management with proven results',
-    icon: SkillIcon2,
-    successRate: '90',
-  },
-  // {
-  //   title: 'Web Application',
-  //   description:
-  //     'Aristotle maintained the sharp distinction between science and the practical',
-  //   icon: SkillIcon3,
-  //   successRate: '80',
-  // },
-];
+// export const SKILLS = [
+//   {
+//     title: 'Web Application',
+//     description: 'I am excited to advance in the area of web development',
+//     icon: SkillIcon1,
+//     successRate: '80',
+//   },
+//   {
+//     title: 'Project Management',
+//     description:
+//       'Experience in stakeholders and project management with proven results',
+//     icon: SkillIcon2,
+//     successRate: '90',
+//   },
+//   // {
+//   //   title: 'Web Application',
+//   //   description:
+//   //     'Aristotle maintained the sharp distinction between science and the practical',
+//   //   icon: SkillIcon3,
+//   //   successRate: '80',
+//   // },
+// ];
 
 export const CLIENTS = [
   {
